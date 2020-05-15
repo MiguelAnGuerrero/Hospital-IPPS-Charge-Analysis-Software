@@ -1,0 +1,82 @@
+body{
+    background-color: #b3e0ff;
+    background-image: url("https://www.virginiamercury.com/wp-content/uploads/2019/09/mental_hospital.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+main{
+ padding: 5%;   
+}
+
+.sidenav{
+    background-color: #003d66;
+    overflow: hidden;
+    text-align: center;
+}
+.sidenav a, footer a{
+    float: center;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.sidenav ul li{
+ display: inline;
+ padding: 5px;
+
+}
+h1{
+ font-family: Andale Mono, monospace;   
+}
+
+.sidenav a:hover, footer a:hover{
+color: #bfbfbf;   
+}
+header{
+ text-align: center;   
+}
+
+body{
+ text-align: left; 
+ font-family: Noto Sans, sans-serif;
+}
+
+footer{
+    
+    bottom: 0;
+    height: 2.5rem;
+    width: 100%;
+    background-color: #003d66;
+    color: white;
+    
+}
+#main {
+    width: 100%;
+    background-color: #003d66;
+    color: white;
+
+    display: block;
+}
+
+
+main a{
+ text-decoration: none;
+ color: black;
+ 
+}
+main a:hover{
+    color: #003d66;
+}
+#intro {
+    position: absolute;
+    top: 40%;
+    left: 35px;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: rgba(255,77,77, .7);
+    text-align: left;
+    width: 90%;
+    z-index: 2;
+}

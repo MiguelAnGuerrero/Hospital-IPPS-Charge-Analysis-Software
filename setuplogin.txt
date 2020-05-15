@@ -1,0 +1,11 @@
+HOW TO SET UP LOGIN FOR YOUR ACCOUNT
+
+go to mysql and type this command:
+CREATE TABLE user(user varchar(256), logged_in varchar(256));
+
+then add these commands:
+INSERT INTO user VALUES ('ct310', 'no');
+INSERT INTO user VALUES ('admin', 'no');
+INSERT INTO user VALUES ('loggedout', 'yes');
+
+you should then be good to go.
